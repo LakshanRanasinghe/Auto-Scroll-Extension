@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Scroll</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      width: 150px;
+      text-align: center;
+      background-color: #f5f5f5;
+    }
+    /* button {
+     background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px 0;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      width: 100%; 
+    } */
+    /* button:hover {
+      background-color: #45a049;
+    } */
+    h1 {
+      font-size: 16px;
+      color: #333;
+    }
+
+    button {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    }
+
+    button:hover {
+    background-color: #fff;
+    }
+
+    button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+    }
+
+    @media (min-width: 768px) {
+    button {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+    }
+  </style>
+</head>
+<body>
+  <button id="startScroll">Start Auto-Scroll</button>
+  <button id="stopScroll">Stop Auto-Scroll</button>
+  <script src="popup.js"></script>
+</body>
+</html>
